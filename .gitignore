@@ -1,0 +1,5 @@
+weights/
+script/pretrained_models
+ori/1109_0_1800.WAV
+script/__pycache__/whisper.cpython-39.pyc
+out/1109_0_1800_EN-US.wav
