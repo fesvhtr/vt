@@ -128,4 +128,4 @@ if __name__ == '__main__':
 
     
     tts_model = init_xtts()
-    srt2speech_speedup_v1(tts_model, 'yjk', '/home/dh/video_trans/srt_translated/1109_0_1800_EN-US.srt')
+    srt2speech_speedup_v1(tts_model, 'yjk', 'vt/srt_translated/1109_0_1800_EN-US.srt')

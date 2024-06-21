@@ -63,7 +63,7 @@ def v2srt_faster_whisper(file_path, output_dir):
             srt_file.write(srt_output)
 
 if __name__ == '__main__':
-    file_path = r'/home/dh/video_trans/ori_video'
-    output_dir = r'/home/dh/video_trans/srt'
+    file_path = r'vt/ori/'
+    output_dir = r'vt/srt/'
     # v2srt_whisper(file_path, output_dir)
     v2srt_faster_whisper(file_path, output_dir)

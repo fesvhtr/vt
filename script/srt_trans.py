@@ -49,6 +49,6 @@ def translate_all_srt(input_dir, output_dir, auth_key, source_lang='ZH', target_
             translate_srt(input_file, output_file, auth_key, source_lang, target_lang)
 
 if __name__ == '__main__':
-    input_file = '/home/dh/video_trans/srt'
-    output_file = '/home/dh/video_trans/srt_translated'
-    translate_all_srt(input_file, output_file, auth_key="47683fff-2408-429b-bb0c-d0d1f386ca83:fx")
+    input_file = 'vt/srt'
+    output_file = 'vt/srt_translated'
+    translate_all_srt(input_file, output_file, auth_key=auth_key)
