@@ -1,3 +1,5 @@
+# Tool for Video Subtitle Generation and Automatic Translation
+
 ## Init
 ```
 pip install deepl tqdm TTS faster-whisper imageio
