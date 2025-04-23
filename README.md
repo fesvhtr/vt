@@ -1,5 +1,7 @@
 ## Init
+```
 pip install deepl tqdm TTS faster-whisper imageio
+```
 ## video to srt
 1. put video in vt/ori
 2. run v2srt.py  
